@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Respinsive Personal Porfolio Website Design | Arshia Razban</title>
+    <title>Respinsive Personal Porfolio(1) Website Design | Arshia Razban</title>
     
     <!-- box icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+    </style>
 
     <!-- custom css -->
     <link rel="stylesheet" href="style.css">
@@ -15,7 +20,7 @@
 
     <!-- header design -->
     <header class="header">
-       <a href="#" class="logo">Portfolio</a>
+       <a href="#" class="logo">portfolio(1)</a>
 
        <i class='bx bx-menu' id="menu-icon"></i>
 
@@ -23,8 +28,8 @@
            <a href="#home" class="active">Home</a>
            <a href="#about">About</a>
            <a href="#services">Services</a>
-           <a href="#Portfolio">Portfolio</a>
-           <a href="#Contact3">Contact</a>
+           <a href="#portfolio">Portfolio</a>
+           <a href="#contact">Contact</a>
        </nav>
     </header>
 
@@ -93,7 +98,7 @@
     </section>
 
     <!-- portfolio section Design -->
-     <section class="portfolio" id="portfolio">
+    <section class="portfolio" id="portfolio">
         <h2 class="heading">Latest <span>Project</span></h2>
 
         <div class="portfolio-container">
@@ -150,9 +155,39 @@
                     <a href="#"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
-            
         </div>
+    </section>
+
+    <!-- contact section Design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="FUll Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">   
+        </form>
+    </section>
+
+    <!-- footer design -->
+     <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Arshia.dev | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+     </footer>
+
     <!-- custom js -->
-     <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
